@@ -1,0 +1,134 @@
+header {
+    width: 100%;
+    position: static;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    height: 90px;
+  }
+  
+  .up {
+      list-style: none;
+      display: flex;
+  }
+  
+  .fa-solid {
+      color: darkblue;
+  }
+  
+  .up li {
+      flex: 1;
+  }
+  
+  .up li i {
+    text-decoration: none;
+    color: darkblue;
+    padding-top: 0.2rem;
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    font-size: 40px;
+  }
+  
+  .up li i span {
+    display: block;
+    background: rgba(0, 0, 0, 0);
+    padding: 0.3rem;
+    font-size: 22px;
+    margin-top: 0.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  @media (hover: hover) {
+    .up li i span {
+      transform: translateY(100px);
+      transition: 0.2s;
+    }
+    .up:hover span {
+      transform: translateY(0);
+    }
+    .up li:nth-child(1) span {
+      transition-delay: 0.0s;
+    }
+    .up li:nth-child(2) span {
+      transition-delay: 0.05s;
+    }
+    .up li:nth-child(3) span {
+      transition-delay: 0.1s;
+    }
+    .up li:nth-child(4) span {
+      transition-delay: 0.15s;
+    }
+    .up li:nth-child(5) span {
+      transition-delay: 0.2s;
+    }
+  }
+  
+  .myMain{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(to right, #9c27b0, #8ecdff);
+  }
+  
+  .intro {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    padding-top: 1px;
+  }
+  
+  .intro_Title{
+    height: 600px;
+    width: 150vh;
+    margin-right: 5px;
+    margin-left: 50px;
+  
+  }
+  
+  .name{
+    font-family: serif;
+    font-size: 2.4em;
+    text-align: left;
+  }
+  
+  .expertise {
+    font-family: serif;
+    font-size: 3.5em;
+    text-align: left;
+  }
+  
+  .note{
+    font-family: serif;
+    font-size: 1.8em;
+    text-align: left;
+  }
+  
+  .ref{
+    font-family: serif;
+    font-size: 1.8em;
+    text-align: left;
+    color: darkblue;
+    font-weight: 300;
+  }
+  
+  .intropic {
+    height: 500px;
+    width: 60vh;
+    padding-top: 4%;
+    margin-right: 150px;
+  } 
+  
+  .myFoot {
+    width: 100%;
+    position: relative;
+    padding-top: 0.2%;
+  }
+  
+  .foot {
+    font-family: serif;
+    font-size: 1.2em;
+    text-align: center;
+    color: cornsilk;
+    font-weight: 300;
+  }
