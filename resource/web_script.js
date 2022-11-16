@@ -12,6 +12,18 @@ let text4 = document.getElementById('item D')
 let text5 = document.getElementById('item E')
 
 //Setting interaction for headers navigation
+document.getElementById("item A").onclick = function () {
+    location.href = "/index.html";
+}
+
 document.getElementById("item B").onclick = function () {
     location.href = "/resource/pages/about.html";
+}
+
+document.getElementById("item D").onclick = function () {
+    location.href = "/resource/pages/project.html";
+}
+
+document.getElementById("item E").onclick = function () {
+    location.href = "/resource/pages/contact.html";
 }

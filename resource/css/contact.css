@@ -1,0 +1,287 @@
+header {
+    width: 100%;
+    position: static;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    height: 90px;
+}
+  
+.up {
+      list-style: none;
+      display: flex;
+}
+  
+.fa-solid {
+      color: darkblue;
+}
+  
+.up li {
+      flex: 1;
+}
+  
+.up li i {
+    text-decoration: none;
+    color: darkblue;
+    padding-top: 0.2rem;
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    font-size: 40px;
+}
+  
+.up li i span {
+    display: block;
+    background: rgba(0, 0, 0, 0);
+    padding: 0.3rem;
+    font-size: 22px;
+    margin-top: 0.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+@media (hover: hover) {
+    .up li i span {
+      transform: translateY(100px);
+      transition: 0.2s;
+    }
+    .up:hover span {
+      transform: translateY(0);
+    }
+    .up li:nth-child(1) span {
+      transition-delay: 0.0s;
+    }
+    .up li:nth-child(2) span {
+      transition-delay: 0.05s;
+    }
+    .up li:nth-child(3) span {
+      transition-delay: 0.1s;
+    }
+    .up li:nth-child(4) span {
+      transition-delay: 0.15s;
+    }
+    .up li:nth-child(5) span {
+      transition-delay: 0.2s;
+    }
+}
+  
+.myMain{
+    width: 100%;
+    height: 120vh;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(to right, #9c27b0, #8ecdff);
+}
+  
+.intro {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    padding-top: 1px;
+}
+  
+.intro_Title{
+    height: 700px;
+    width: 150vh;
+    margin-right: 10px;
+    margin-left: 50px;
+}
+  
+.name{
+    font-family: serif;
+    font-size: 2.4em;
+    text-align: left;
+}
+  
+.expertise {
+    font-family: serif;
+    font-size: 3.5em;
+    text-align: left;
+}
+  
+.note{
+    font-family: serif;
+    font-size: 1.3em;
+    text-align: left;
+}
+  
+.note a {
+    font-family: serif;
+    font-size: 1.3em;
+    text-align: left;
+    color: rgb(61, 4, 87);
+    font-weight: 100;
+}
+  
+.intropic {
+    height: 550px;
+    width: 80vh;
+    padding-top: 6%;
+    margin-right: 100px;
+    margin-left: 20px;
+} 
+
+.form-label{
+    font-family: serif;
+    font-size: 1.3em;
+    text-align: left;
+    color: rgb(247, 241, 247);
+    font-weight: 100;
+    padding-bottom: 30px;
+}
+
+.form-input{
+    max-width: 650px;
+    border-style: none;
+    border-width: 1px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-color: hsla(0,0%,100%,0);
+    border-top-color: rgba(255, 255, 255, 0);
+    border-right-color: rgba(255, 255, 255, 0);
+    border-bottom-color: rgba(255, 255, 255, 0);
+    border-left-color: rgba(255, 255, 255, 0);
+    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: rgb(66, 7, 122);
+}
+
+input[type='submit']{
+    display: block;
+    width: 25%;
+    height: 38px;
+    padding: 8px 12px;
+    padding-top: 8px;
+    padding-right: 12px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    margin-bottom: 10px;
+
+    font-size: 14px;
+    font-family: serif;
+
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+
+.w-input{
+    display: block;
+    width: 70%;
+    height: 38px;
+    padding: 8px 12px;
+    padding-top: 8px;
+    padding-right: 12px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: rgb(66, 7, 122);
+    /* vertical-align: middle; */
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: rgb(204, 204, 204);
+    border-right-color: rgb(204, 204, 204);
+    border-bottom-color: rgb(204, 204, 204);
+    border-left-color: rgb(204, 204, 204);
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+}
+
+textarea {
+    overflow: auto;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+textarea{
+    writing-mode: horizontal-tb !important;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: ;
+    font-variant-east-asian: ;
+    font-weight: ;
+    font-stretch: ;
+    font-size: ;
+    font-family: monospace;
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    resize: auto;
+    cursor: text;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    background-color: field;
+    column-count: initial !important;
+    margin: 0em;
+    border-width: 1px;
+    border-style: solid;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    padding: 2px;
+}
+
+input, textarea {
+    color: inherit;
+    font: inherit;
+    font-style: ;
+    font-variant-ligatures: ;
+    font-variant-caps: ;
+    font-variant-numeric: ;
+    font-variant-east-asian: ;
+    font-weight: ;
+    font-stretch: ;
+    font-size: ;
+    line-height: ;
+    font-family: ;
+    margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+.myFoot {
+    width: 100%;
+    position: relative;
+    padding-top: 0.2%;
+}
+  
+.foot {
+    font-family: serif;
+    font-size: 1.2em;
+    text-align: center;
+    color: cornsilk;
+    font-weight: 300;
+}

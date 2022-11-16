@@ -38,34 +38,34 @@ header {
     font-family: Arial, Helvetica, sans-serif;
   }
   
-  @media (hover: hover) {
-    .up li i span {
-      transform: translateY(100px);
-      transition: 0.2s;
-    }
-    .up:hover span {
-      transform: translateY(0);
-    }
-    .up li:nth-child(1) span {
-      transition-delay: 0.0s;
-    }
-    .up li:nth-child(2) span {
-      transition-delay: 0.05s;
-    }
-    .up li:nth-child(3) span {
-      transition-delay: 0.1s;
-    }
-    .up li:nth-child(4) span {
-      transition-delay: 0.15s;
-    }
-    .up li:nth-child(5) span {
-      transition-delay: 0.2s;
-    }
+@media (hover: hover) {
+  .up li i span {
+    transform: translateY(100px);
+    transition: 0.2s;
   }
+  .up:hover span {
+    transform: translateY(0);
+  }
+  .up li:nth-child(1) span {
+    transition-delay: 0.0s;
+  }
+  .up li:nth-child(2) span {
+    transition-delay: 0.05s;
+  }
+  .up li:nth-child(3) span {
+    transition-delay: 0.1s;
+  }
+  .up li:nth-child(4) span {
+    transition-delay: 0.15s;
+  }
+  .up li:nth-child(5) span {
+    transition-delay: 0.2s;
+  }
+}
   
   .myMain{
     width: 100%;
-    height: 100vh;
+    height: 120vh;
     position: relative;
     overflow: hidden;
     background: linear-gradient(to right, #9c27b0, #8ecdff);
@@ -79,11 +79,10 @@ header {
   }
   
   .intro_Title{
-    height: 600px;
+    height: 700px;
     width: 150vh;
-    margin-right: 5px;
+    margin-right: 10px;
     margin-left: 50px;
-  
   }
   
   .name{
@@ -100,23 +99,24 @@ header {
   
   .note{
     font-family: serif;
-    font-size: 1.8em;
+    font-size: 1.3em;
     text-align: left;
   }
   
-  .ref{
+  .note a {
     font-family: serif;
-    font-size: 1.8em;
+    font-size: 1.3em;
     text-align: left;
-    color: darkblue;
-    font-weight: 300;
+    color: rgb(61, 4, 87);
+    font-weight: 100;
   }
   
   .intropic {
-    height: 500px;
-    width: 60vh;
-    padding-top: 4%;
-    margin-right: 150px;
+    height: 550px;
+    width: 80vh;
+    padding-top: 6%;
+    margin-right: 100px;
+    margin-left: 20px;
   } 
   
   .myFoot {
